@@ -4,6 +4,9 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 # Lista de conexão
 * Capacitor cerâmico de 50pF
 * Capacitor cerâmico de 100nF
+* 2 - Interruptores
+* Conector XT60 Macho
+* Cabo para autofalante (Soldar no XT60 e na placa)
 * Capacitor eletrolítico de 330uF; ≥10v
 * Capacitor poliéster 1uF
 * Resistor de 10k
