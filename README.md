@@ -1,6 +1,20 @@
 # Materiais
 Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobre os materiais que usamos.
 
+# Lista de conexão
+* Capacitor cerâmico de 50pF
+* Capacitor cerâmico de 100nF
+* Capacitor eletrolítico de 330uF; ≥10v
+* Capacitor poliéster 1uF
+* Resistor de 10k
+* Resistor de 30Ω
+* Led vermelho alto brilho 5mm
+* LM7805
+* Esp32 doit devkit
+* Módulo nrf24l0
+* Mpu 6050
+* Diodo Schottky com queda de tensão baixa em 5v e que aguente até 1 A (Pedir para a Samantha)
+
 
 # Lista de conexões dos componentes ![Última atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
 
