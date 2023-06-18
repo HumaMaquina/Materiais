@@ -17,7 +17,7 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 
 
 # Lista de conexões dos componentes ![Última atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
-
+<img src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Esquematico_placaV1.jpg?raw=true">
 Sujeita a mudanças:
 
 | QUANTIDADE | COMPONENTE             | CONEXÃO                      | PORTAS (n°)       | DESCRIÇÃO |
