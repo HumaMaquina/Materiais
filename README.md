@@ -6,44 +6,90 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 
 Sujeita a mudanças:
 
-|Quantidade|Componente|Conexão no Esp32|Portas(n°)|Descrição|
-|:----|:----|:----|:----|:----|
-|1|ESP32 DEVKIT V1 - DOIT|Motor|A01, A02, PGND1| |
-| | | |B02, B01, PGND2| |
-| | |Ponte H TB6612FNG|2 - VCC(20)| |
-| | | |IO22 - PWMA(23)| |
-| | | |IO23 - AIN1(21)| |
-| | | |IO25 - AIN2(22)| |
-| | | |IO26 - PWMB(15)| |
-| | | |IO27 - BIN1(17)| |
-| | | |IO32 - BIN2(16)| |
-| | |NRF24L01|3.3V - VCC| |
-| | | |GND - GND| |
-| | | |IO5 - CSN| |
-| | | |IO4 - CE| |
-| | | |IO23 - MOSI| |
-| | | |IO18 - SCK| |
-| | | |IO19 - MISO| |
-|2|Micro motor 6V 200 RPM Low Power|ESP32|A01, A02, PGND1| |
-| | | |B02, B01, PGND2| |
-|2|Par de Encoders Magnéticos com entrada lateral|ESP32|IO 14/15/16/17| |
-|1|Ponte H TB6612FNG|ESP32|VCC(20) - 2| |
-| | | |PWMA(23) - IO22| |
-| | | |AIN1(21) - IO23| |
-| | | |AIN2(22) - IO25| |
-| | | |PWMB(15) - IO26| |
-| | | |BIN1(17) - IO27| |
-| | | |BIN2(16) - IO32| |
-| | |TB6612FNG|VM2 (13) / STBY(19) - VCC (20)| |
-| | |Regulador 7805|VM2(13) / VM3(14) - VO(3)| |
-|1|Módulo de Rádio NFR24L01|ESP32|VCC - 3.3V
-| | | |GND - GND| |
-| | | |CSN - IO5| |
-| | | |CE - IO4| |
-| | | |MOSI - IO23| |
-| | | |SCK - IO18| |
-| | | |MISO - IO19| |
-|1|Regulador Boost XL6009|Regulador 7805|SW(3) - VI(1)| |
-| | |Bateria LiPo 7.4V|VIN(4) - Terminal Positivo| |
-|1|Regulador 7805|XL6009|VI(1) - SW(3)| |
-| | |TB6612FNG|VO(3) - VM2(13)| |
+| QUANTIDADE | COMPONENTE             | CONEXÃO                      | PORTAS (n°)       | DESCRIÇÃO |
+|------------|------------------------|------------------------------|-------------------|-----------|
+| 1          | ESP32 DEVKIT V1 - DOIT | Ponte H TB6612FNG            | D13 - PWMA        |           |
+|            |                        |                              | D25 - PWMB        |           |
+|            |                        |                              | D12 - AI2         |           |
+|            |                        |                              | D14 - AI1         |           |
+|            |                        |                              | D27 - BI2         |           |
+|            |                        |                              | D26 - BI1         |           |
+|            |                        |                              | 3V3 - STBY        |           |
+|            |                        |                              | 3V3 - VCC         |           |
+|            |                        |                              | GND - GND         |           |
+|            |                        | ADNS-3050                    | D19 - MISO        |           |
+|            |                        |                              | D2 - NCS          |           |
+|            |                        |                              | D23 - MOSI        |           |
+|            |                        |                              | D18 - SCLK        |           |
+|            |                        |                              | 3V3 - VDD         |           |
+|            |                        |                              | GND - GND         |           |
+|            |                        | MPU-6050 DIP                 | 3V3 - VCC         |           |
+|            |                        |                              | GND - GND         |           |
+|            |                        |                              | D22 - SCL         |           |
+|            |                        |                              | D21 - SDA         |           |
+|            |                        |                              | D33 - INT         |           |
+|            |                        | NRF24L01                     | 3V3 - VCC         |           |
+|            |                        |                              | D5 - CSN          |           |
+|            |                        |                              | D23 - MOSI        |           |
+|            |                        |                              | D4 - CE           |           |
+|            |                        |                              | D18 - SCK         |           |
+|            |                        |                              | D19 - MISO        |           |
+| 1          | Ponte H TB6612FNG      | ESP32 DEVKIT V1 - DOIT       | PWMA - D13        |           |
+|            |                        |                              | PWMB - D25        |           |
+|            |                        |                              | AI2 - D12         |           |
+|            |                        |                              | AI1 - D14         |           |
+|            |                        |                              | BI2 - D27         |           |
+|            |                        |                              | BI1 - D26         |           |
+|            |                        |                              | STBY - 3V3        |           |
+|            |                        |                              | VCC - 3V3         |           |
+|            |                        |                              | GND - GND         |           |
+|            |                        | Resistor 1K Ohms             | STBY - Resistor   |           |
+|            |                        | MicroMotor                   | AO1 - Motor1 +    |           |
+|            |                        |                              | AO2 - Motor1 -    |           |
+|            |                        |                              | BO2 - Motor 2 +   |           |
+|            |                        |                              | BO1 - Motor 2 -   |           |
+|            |                        | Switch Motor                 | VM - 2            |           |
+| 1          | MPU-6050 DIP           | ESP32 DEVKIT V1 - DOIT       | VCC - 3V3         |           |
+|            |                        |                              | GND - GND         |           |
+|            |                        |                              | SCL - D22         |           |
+|            |                        |                              | SDA - D21         |           |
+|            |                        |                              | INT - D33         |           |
+| 1          | NRF24L01               | ESP32 DEVKIT V1 - DOIT       | VCC - 3V3         |           |
+|            |                        |                              | CSN - D5          |           |
+|            |                        |                              | MOSI - D23        |           |
+|            |                        |                              | CE - D4           |           |
+|            |                        |                              | SCK - D18         |           |
+|            |                        |                              | MISO - D19        |           |
+|            |                        | Capacitor Cerâmico 100nF     | VCC - Capacitor+  |           |
+|            |                        | Capacitor Cerâmico 50pF      | VCC - Capacitor+  |           |
+| 1          | ADNS-3050              | ESP32 DEVKIT V1 - DOIT       | MISO - D19        |           |
+|            |                        |                              | NCS - D2          |           |
+|            |                        |                              | MOSI - D23        |           |
+|            |                        |                              | SCLK - D18 -      |           |
+|            |                        |                              | VDD - 3V3         |           |
+|            |                        |                              | GND - GND         |           |
+|            |                        | Resistor 30 Ohms             | VDD - Resistor    |           |
+| 1          | Regulador XL6009       | Switch Sistema               | IN+ - 3           |           |
+|            |                        | Bateria 7.4V                 | IN+ - Terminal +  |           |
+|            |                        |                              | IN- - Terminal -  |           |
+|            |                        |                              | OUT- - Terminal - |           |
+|            |                        | Switch Motor                 | OUT+ - 3          |           |
+| 1          | Regulador LM7805       | Switch Sistema               | IN - 2            |           |
+|            |                        | Capacitor Poliester 5uF      | IN - Capacitor+   |           |
+|            |                        |                              | OUT - Capacitor+  |           |
+|            |                        | Capacitor Cerâmico 100nF     | IN - Cpacitor+    |           |
+|            |                        |                              | OUT - Capacitor+  |           |
+|            |                        | Capacitor Eletrolítico 330uF | OUT - Capacitor+  |           |
+|            |                        | Diodo Schottky 1A            | OUT - Anodo       |           |
+| 1          | LED                    | ADNS-3050                    | Catodo - LED      |           |
+|            |                        | Resistor 30 Ohms             | Anodo - Resistor  |           |
+| 1          | Diodo Schottky 1A      | LM7805                       | Anodo - OUT       |           |
+|            |                        | ESP32 DEVKIT V1 - DOIT       | Catodo - 5V       |           |
+| 1          | Switch Sistema         | XL6009                       | 3 - IN+           |           |
+|            |                        | LM7805                       | 2 - IN            |           |
+| 1          | Switch Motor           | TB6612FNG                    | 2 - VM            |           |
+|            |                        | XL6009                       | 3 - OUT+          |           |
+| 2          | MicroMotor             | TB6612FNG                    | Motor1+ - AO1     |           |
+|            |                        |                              | Motor1- - AO2     |           |
+|            |                        |                              | Motor 2+ - BO2    |           |
+|            |                        |                              | Motor 2- - BO1    |           |
