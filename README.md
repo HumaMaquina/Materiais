@@ -16,7 +16,7 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 * Diodo Schottky com queda de tensão baixa em 5v e que aguente até 1 A (Pedir para a Samantha)
 
 
-# Lista de conexões dos componentes ![Última atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
+# Lista de conexões dos componentes ![Útima atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
 
 Sujeita a mudanças:
 
