@@ -38,6 +38,17 @@ Imagem a seguir de como deve ficar:
 <img align="center" alt="Motores_com_fita" height="500" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Motores.png?raw=true"/>
 </div>
 
+* Componentes soldados diretamente na placa (capacitores, diodo e regulador LM7805)
+<div style="display: inline_block" align="center">
+<img align="center" alt="Componentes 1" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%20montados%20no%20PCB.jpg?raw=true"/>
+</div>
+<div style="display: inline_block" align="center">
+<img align="center" alt="Componentes 2" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%202.jpg?raw=true"/>
+</div>
+<div style="display: inline_block" align="center">
+<img align="center" alt="Componentes 3" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%203.jpg?raw=true"/>
+</div>
+
 # Lista de conexões dos componentes ![Última atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
 <img src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Esquematico_placaV1.jpg?raw=true">
 Sujeita a mudanças:
