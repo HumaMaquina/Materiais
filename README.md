@@ -25,7 +25,12 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 <div style="display: inline_block" align="center">
 <img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Interruptor90.png?raw=true"/>
 <img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Interruptor0.png?raw=true"/>
+<br>
+Os interruptores soldados na placa ficam assim:
+<br>
+<img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/InterruptorSoldados.png?raw=true"/>
 </div>
+
   
 * Motores - Soldar os fios e colocar fita isolante cobrindo a solda para que não haja contato entre as soldas dos motores.
 Imagem a seguir de como deve ficar:
