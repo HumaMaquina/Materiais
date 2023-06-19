@@ -7,7 +7,7 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 * 2 - Interruptores
 * Conector XT60 Macho
 * Cabo para autofalante (Soldar no XT60 e na placa)
-* Capacitor eletrolítico de 330uF; ≥10v
+* Capacitor eletrolítico de 330uF(**O disponível no lab é o de 220uF, portanto será ele**); ≥10v
 * Capacitor poliéster 1uF
 * Resistor de 10k
 * Resistor de 30Ω
@@ -19,7 +19,12 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 * Diodo Schottky com queda de tensão baixa em 5v e que aguente até 1 A (Pedir para a Samantha)
 
 #Observações:
-* Interruptores -
+* Interruptores - Ambos os interruptores disponíveis são de 90°. Em deles será necessário entortar os terminais. Como na figura abaixo:
+<div style="display: inline_block" align="center">
+<img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Interruptor90.png?raw=true"/>
+<img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Interruptor0.png?raw=true"/>
+</div>
+  
 * Motores - Soldar os fios e colocar fita isolante cobrindo a solda para que não haja contato entre as soldas dos motores.
 Imagem a seguir de como deve ficar:
 
