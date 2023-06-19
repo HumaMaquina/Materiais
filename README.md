@@ -1,6 +1,8 @@
 # Materiais
 Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobre os materiais que usamos.
 
+[![Como montar seu robo VSSS IEEE](https://img.shields.io/badge/Como_montar_seu_robo_VSSS_IEEE-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/CSqQj6XjWUg)
+
 # Lista de conexão
 * Capacitor cerâmico de 50pF
 * Capacitor cerâmico de 100nF
