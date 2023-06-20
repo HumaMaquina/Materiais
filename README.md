@@ -38,14 +38,10 @@ Imagem a seguir de como deve ficar:
 <img align="center" alt="Motores_com_fita" height="500" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Motores.png?raw=true"/>
 </div>
 
-* Componentes soldados diretamente na placa (capacitores, diodo e regulador LM7805)
+* Componentes soldados diretamente na placa (capacitores, diodo e regulador LM7805):
 <div style="display: inline_block" align="center">
 <img align="center" alt="Componentes 1" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%20montados%20no%20PCB.jpg?raw=true"/>
-</div>
-<div style="display: inline_block" align="center">
 <img align="center" alt="Componentes 2" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%202.jpg?raw=true"/>
-</div>
-<div style="display: inline_block" align="center">
 <img align="center" alt="Componentes 3" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%203.jpg?raw=true"/>
 </div>
 
