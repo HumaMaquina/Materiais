@@ -40,9 +40,9 @@ Imagem a seguir de como deve ficar:
 
 * Componentes soldados diretamente na placa (capacitores, diodo e regulador LM7805):
 <div style="display: inline_block" align="center">
-<img align="center" alt="Componentes 1" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%20montados%20no%20PCB.jpg?raw=true"/>
-<img align="center" alt="Componentes 2" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%202.jpg?raw=true"/>
-<img align="center" alt="Componentes 3" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%203.jpg?raw=true"/>
+<img align="center" alt="Componentes 1" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%20montados%20no%20PCB.jpg?raw=true"/>
+<img align="center" alt="Componentes 2" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%202.jpg?raw=true"/>
+<img align="center" alt="Componentes 3" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Componentes%203.jpg?raw=true"/>
 </div>
 <br>
 * Sensor de Mouse: O circulo amarelo indicado na figura abaixo representa o terminal 1 do sensor.
