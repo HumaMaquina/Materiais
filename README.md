@@ -20,7 +20,7 @@ Esse repositório PÚBLICO tem o objetivo de guardar datasheets importantes sobr
 * Mpu 6050
 * Diodo Schottky com queda de tensão baixa em 5v e que aguente até 1 A (Pedir para a Samantha)
 
-#Observações:
+#⚠️Observações:
 * Interruptores - Ambos os interruptores disponíveis são de 90°. Em deles será necessário entortar os terminais. Como na figura abaixo:
 <div style="display: inline_block" align="center">
 <img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Interruptor90.png?raw=true"/>
@@ -31,7 +31,6 @@ Os interruptores soldados na placa ficam assim:
 <img align="center" alt="Motores_com_fita" height="400" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/InterruptorSoldados.png?raw=true"/>
 </div>
 
-  
 * Motores - Soldar os fios e colocar fita isolante cobrindo a solda para que não haja contato entre as soldas dos motores.
 Imagem a seguir de como deve ficar:
 <div style="display: inline_block" align="center">
@@ -53,6 +52,13 @@ Imagem a seguir de como deve ficar:
 
 [Datasheet Sensor Mouse](https://github.com/HumaMaquina/Materiais/blob/main/datasheets/Mouse_sensor_ADNS3050.pdf)
 </div>
+<br>
+* Cabo conector da bateria: Preste atenção! Essa parte não pode haver erros. Assim como mostrado nas figuras abaixo, o conector positivo deve ser soldado no terminal direito da placa e o fio vermelho vai no fio vermolho vai no terminal positivo do conector. Também preste atenção no conector, você vai soldar o terminal fêmea na placa, o terminal macho será soldado na bateria futuramente.
+<div style="display: inline_block" align="center">
+<img align="center" alt="Esquematico_sensor_mouse" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Conector%20bateria.jpg?raw=true"/>
+<img align="center" alt="DataSheet_sensor_mouse" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Conector%20bateria2.jpg?raw=true"/>
+</div>
+
 
 # Lista de conexões dos componentes ![Última atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
 <img src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Esquematico_placaV1.jpg?raw=true">
