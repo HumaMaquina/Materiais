@@ -48,9 +48,10 @@ Imagem a seguir de como deve ficar:
 * Sensor de Mouse: O circulo amarelo indicado na figura abaixo representa o terminal 1 do sensor.
 
 <div style="display: inline_block" align="center">
-<img align="center" alt="Componentes 1" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Esquematico_sensor_mouse.png?raw=true"/>
-<img align="center" alt="Componentes 1" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Pinout_sensor_mouse.png?raw=true"/>
+<img align="center" alt="Esquematico_sensor_mouse" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Esquematico_sensor_mouse.png?raw=true"/>
+[<img align="center" alt="DataSheet_sensor_mouse" height="300" src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Pinout_sensor_mouse.png?raw=true"/>](https://github.com/HumaMaquina/Materiais/blob/main/datasheets/Mouse_sensor_ADNS3050.pdf)
 </div>
+
 # Lista de conexões dos componentes ![Última atualização](https://img.shields.io/github/last-commit/HumaMaquina/Materiais?label=Última%20atualização&style=flat&color=blue&labelColor=grey&logo=github&logoColor=white&date_format=DD%2FMM%2FYY%20-%20HH%3A%MM%20%28UTC%29)
 <img src="https://github.com/HumaMaquina/Materiais/blob/main/assets/Esquematico_placaV1.jpg?raw=true">
 Sujeita a mudanças:
